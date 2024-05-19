@@ -1,0 +1,68 @@
+header {
+    font-family: sans-serif;
+    color: #2e2e2e;
+}
+
+body {
+    font-family: sans-serif;
+    color: #2e2e2e;
+}
+
+.section {
+    margin: 20px;
+    
+}
+
+input {
+    border-radius: 5px;
+    border-color: grey;
+    border-style: solid;
+    padding: 8px;
+    width: 200px;
+    
+}
+
+input[type=password]:focus {
+    border-color: #c93535;
+    border-style: solid;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form {
+    align-self: baseline;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: #6563b7;
+    border-width: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 23px;
+    height: 300px;
+}
+
+button {
+    margin-top: 117px;
+    background-color: #5e98cd;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.secondary {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

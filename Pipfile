@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==5.0.1"
+asgiref = "==3.7.2"
+django-cors-headers = "==4.3.1"
+djangorestframework = "==3.14.0"
+djangorestframework-simplejwt = "==5.3.1"
+pillow = "==10.2.0"
+pyjwt = "==2.8.0"
+pytz = "==2023.3.post1"
+sqlparse = "==0.4.4"
+tzdata = "==2023.4"
+tensorflow = "*"
+pandas = "*"
+scikit-learn = "*"
+django-rest-passwordreset = "*"
+paddleocr = ">=2.0.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11.5"
